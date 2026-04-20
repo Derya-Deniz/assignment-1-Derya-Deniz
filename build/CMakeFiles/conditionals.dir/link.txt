@@ -1,0 +1,1 @@
+/usr/bin/clang -ferror-limit=1 -gdwarf-4 -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-gnu-folding-constant -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-but-set-variable -Wshadow CMakeFiles/conditionals.dir/src/03_conditionals.c.o -o conditionals 

@@ -1,0 +1,8 @@
+/home/ubuntu/assignment-1-Derya-Deniz/build/CMakeFiles/datatypes.dir
+/home/ubuntu/assignment-1-Derya-Deniz/build/CMakeFiles/operators.dir
+/home/ubuntu/assignment-1-Derya-Deniz/build/CMakeFiles/conditionals.dir
+/home/ubuntu/assignment-1-Derya-Deniz/build/CMakeFiles/loops.dir
+/home/ubuntu/assignment-1-Derya-Deniz/build/CMakeFiles/cmd.dir
+/home/ubuntu/assignment-1-Derya-Deniz/build/CMakeFiles/magic.dir
+/home/ubuntu/assignment-1-Derya-Deniz/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/assignment-1-Derya-Deniz/build/CMakeFiles/rebuild_cache.dir
