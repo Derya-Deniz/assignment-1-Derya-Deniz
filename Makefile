@@ -1,35 +1,30 @@
+CC = gcc
+CFLAGS = -std=c11 -Wall -Wextra -O2
 
----
+SRC = src
+BIN = bin
 
-## 3) Makefile
+all: datatypes operators conditionals loops cmd magic
 
-```makefile
-CC=gcc
-CFLAGS=-std=c11 -Wall -Wextra -O2
-SRC=src
-BIN=bin
-
-all: folders datatypes operators conditionals loops cmd magic
-
-folders:
+$(BIN):
 	mkdir -p $(BIN)
 
-datatypes:
+datatypes: $(BIN)
 	$(CC) $(CFLAGS) $(SRC)/01_datatypes.c -o $(BIN)/datatypes
 
-operators:
+operators: $(BIN)
 	$(CC) $(CFLAGS) $(SRC)/02_operators.c -o $(BIN)/operators
 
-conditionals:
+conditionals: $(BIN)
 	$(CC) $(CFLAGS) $(SRC)/03_conditionals.c -o $(BIN)/conditionals
 
-loops:
+loops: $(BIN)
 	$(CC) $(CFLAGS) $(SRC)/04_loops.c -o $(BIN)/loops
 
-cmd:
+cmd: $(BIN)
 	$(CC) $(CFLAGS) $(SRC)/05_command_line.c -o $(BIN)/cmd
 
-magic:
+magic: $(BIN)
 	$(CC) $(CFLAGS) $(SRC)/06_magic_numbers.c -o $(BIN)/magic
 
 clean:
